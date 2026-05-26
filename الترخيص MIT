@@ -1,0 +1,11 @@
+
+---
+
+## 🔧 خامساً: التعامل مع المشاكل الشائعة
+
+### المشكلة 1: "error: failed to push some refs"
+
+**الحل:**
+```bash
+git pull origin main --rebase
+git push origin main
