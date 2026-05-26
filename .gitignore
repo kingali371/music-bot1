@@ -1,0 +1,21 @@
+# المتغيرات السرية
+.env
+*.env
+
+# الملفات المؤقتة
+__pycache__/
+*.pyc
+*.pyo
+
+# ملفات التخزين المؤقت
+audio_cache/
+downloads/
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+
+# توكين البوت - لا ترفعه أبداً!
+config_local.py
