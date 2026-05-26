@@ -7,15 +7,16 @@ __pycache__/
 *.pyc
 *.pyo
 
-# ملفات التخزين المؤقت
-audio_cache/
-downloads/
-*.db
-*.sqlite
+# جلسات المستخدم
+*.session
+*.session-journal
 
-# IDE
+# التخزين المؤقت
+downloads/
+audio_cache/
+*.mp3
+*.mp4
+
+# إعدادات IDE
 .vscode/
 .idea/
-
-# توكين البوت - لا ترفعه أبداً!
-config_local.py
